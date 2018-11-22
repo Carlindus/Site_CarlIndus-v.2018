@@ -172,7 +172,6 @@ h2 {
 .directory {
   background-color: #f5f5f5;
   position: absolute;
-  min-width: 30vw;
   max-width: 50vw;
   top: 50%;
   left: 50%;
@@ -207,14 +206,6 @@ h2 {
   z-index: 10;
 }
 
-/* #contactCID:hover,
-#website-manager:hover,
-#recycle-bin:hover {
-  z-index: 1000;
-}
-#contactForm:hover{
-  z-index: 1001;
-} */
 #contactCID:hover,
 #website-manager:hover,
 #recycle-bin:hover {
@@ -222,7 +213,7 @@ h2 {
 }
 
 #contactForm:hover {
-  z-index: 1001;
+  z-index: 1000;
 }
 
 #contactCID:hover .top-bar,
@@ -276,6 +267,7 @@ h2 {
 
 .top-bar>p {
   color: #f5f5f5;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
